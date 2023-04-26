@@ -1,0 +1,14 @@
+@media only screen and (max-width: 400px) {
+    section{
+        width: 360px;
+    }
+    input{
+        width: 90px;
+    }
+    button{
+        width: 100px;
+    }
+    body rounds{
+        width: 360px;
+    }
+}

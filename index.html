@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/response.css">
+    <title>timer</title>
+    
+</head>
+<body id="body">
+    <section id="section">
+        <div class= "coloreditbotton">
+            <img src="img/brightness.png" alt="white" class="white" id="white">
+            <img src="img/night-mode.png" alt="dark" class="dark" id="dark">
+        </div>
+        <h1 id="h1">TIMER</h1>
+        <div id="settimisdiv">
+            <div class="settimer" id="settimer">
+                <div class="timertime">
+                    <input type="number" name="sethour" id="sethour" >
+                    <p class="hms" id="hoursp">Hours</p>
+                </div>
+                <p>&#58;</p>
+                <div class="timertime">
+                    <input type="number" name="setminute" id="setminute" >
+                    <p class="hms" id="minutep">Minutes</p>
+                </div>
+                <p>&#58;</p>
+                <div class="timertime">
+                    <input type="number" name="setsecond" id="setsecond" >
+                    <p class="hms" id="secondsp">Seconds</p>
+                </div>               
+            </div>
+        </div>
+        <div class="divi" id="divi">
+            <div class="timer" id="timer">
+                <div class="timertime">
+                    <p class="hour box" id="hour">0</p>
+                    <p class="hms" id="hoursp2">Hours</p>
+                </div>
+                <p>&#58;</p>
+                <div class="timertime">
+                    <p class="minute box" id="minute">0</p>
+                    <p class="hms" id="minutesp2">Minutes</p>
+                </div>
+                <p>&#58;</p>
+                <div class="timertime">
+                    <p class="second box" id="second">0</p>
+                    <p class="hms" id="secondsp2">Seconds</p>
+                </div>   
+            </div>
+        </div>
+        <div class="btnebi" id="btnebi">
+            <button class="round" id="round">ROUND</button>
+            <button class="start" id="start">START</button>
+            <button class="paus" id="paus">PAUS</button>
+            <button class="reset" id="reset">RESET</button>
+        </div>
+        <section id="rounds"></section>
+        <div class="zoli"></div>  
+    </section>
+    <script src="js/editcolor.js"></script>
+    <script src="js/timer.js"></script>
+</body>
+</html>
